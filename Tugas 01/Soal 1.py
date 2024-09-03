@@ -10,3 +10,5 @@ total = abs(meteran_awal-meteran_akhir)*tarif
 
 # Output tarif total
 print("Biaya taxi adalah %.2f dollar" % total)
+
+#Testing
