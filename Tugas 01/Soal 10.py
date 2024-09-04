@@ -15,4 +15,4 @@ gradien = -1/gradien
 b = mid_y-gradien*mid_x
 
 # Output dari fungsi tegak lurus
-print(f"y = {gradien}x + {b}") if b>0 else print(f"y = {gradien}x - {abs(b)}")
+print(f"y = {gradien:.2f}x + {b:.2f}") if b>0 else print(f"y = {gradien:.2f}x - {abs(b):.2f}")
