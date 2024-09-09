@@ -6,7 +6,7 @@ if angka<=1:
 elif angka==2 or angka==3:
     print("IT IS A PRIME")
 else:
-    for i in range(4, m.sqrt(angka)+1):
+    for i in range(4, m.floor(m.sqrt(angka)+1)):
         if angka%i==0:
             print("IT IS NOT A PRIME")
     print("IT IS A PRIME")
