@@ -1,5 +1,5 @@
 # Input tanggal
-tanggal = list(map(int, input("Masukkan tanggal (Bulan/Hari/Tahun): ").split()))
+tanggal = list(map(int, input("Masukkan tanggal (Bulan/Hari/Tahun): ").split(":")))
 bulan = [31,28,31,30,31,30,31,31,30,31,30,31]
 
 # Cek tahun kabisat
